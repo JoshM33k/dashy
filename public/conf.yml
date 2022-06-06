@@ -11,7 +11,12 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: adventure
+  auth:
+    users:
+    - user: josh
+      hash: 51ECFC0602F3D32F57FB1FA8292AF8FDF8C59C1D734790717D76EF8306CA39FC
+      type: admin
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -44,4 +49,11 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
+- name: Orchard Software
+  icon: https://mobile.twitter.com/OrchardSoftware/photo
+  items:
+  - title: Gerrit
+    description: Git repositories and code review
+    icon: fa-git-alt
+    url: https://dev.orchardsoft.com/gerrit/
   
